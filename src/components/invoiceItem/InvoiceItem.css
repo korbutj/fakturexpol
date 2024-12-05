@@ -1,0 +1,48 @@
+.invoice-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.invoice-header {
+  background-color: lightgray;
+}
+
+.invoice-item p {
+  border: black 1px solid;
+  margin: 0;
+  font-size: 2.3rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.line-number-column {
+  flex: 5%
+}
+
+.name-column {
+  flex: 20%
+}
+
+.amount-column {
+  flex: 7%
+}
+
+.value-column {
+  flex: 20%
+}
+
+.vat-column {
+  flex: 10%
+}
+
+.vat-value-column {
+  flex: 20%
+}
+
+.total-value-column {
+  flex: 20%
+}

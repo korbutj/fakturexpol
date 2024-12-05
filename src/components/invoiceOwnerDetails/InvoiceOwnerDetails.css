@@ -1,0 +1,33 @@
+.owner {
+    margin-bottom: 7%;
+}
+
+.owner-seller {
+    margin-left: 10%;
+}
+
+.owner-buyer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.owner-type {
+    /* font-size: ; */
+    font-weight: bold;
+    font-style: normal;
+    font-style: bold;
+}
+
+.owner p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-style: italic;
+    font-size: 2.5rem;
+}
